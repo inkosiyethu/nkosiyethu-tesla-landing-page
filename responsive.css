@@ -1,0 +1,53 @@
+/* For devices with screen width between 480px and 768px */
+@media (max-width: 768px) and (min-width: 480px) {
+    .test {
+        width: 100%;
+        height: 50px;
+        background-color: yellow;
+        display: block;
+    }
+
+    .card-subtitle {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 1rem 0;
+    }
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 550px) and (min-width: 400px) {
+   
+}
+
+
+@media (orientation: portrait) and (min-width: 480px) {
+    
+}
+
+
+@media (max-width: 349px) {
+ 
+}
+
+
+@media (max-width: 1200px) and (min-width: 768px) {
+    /* Add desktop styles here */
+}
+
+
+@media (max-width: 768px) and (min-width: 480px) {
+    /* Add tablet styles here */
+}
+
+@media (max-width: 480px) {
+    /* Add mobile styles here */
+}
